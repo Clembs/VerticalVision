@@ -6,8 +6,7 @@ import { resolve } from 'path';
 const config = {
 	preprocess: preprocess(),
 	kit: {
-		adapter: adapter(),
-		target: 'body'
+		adapter: adapter()
 	},
 	vite: {
 		resolve: {
