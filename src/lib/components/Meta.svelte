@@ -9,7 +9,7 @@
 		title: title ? `VerticalVision - ${title}` : 'VerticalVision - Watch your safety',
 		description,
 		baseUrl: $page.url.host,
-		image: '/logo.png',
+		image: '/favicon.png',
 		color: '#3A7DC9'
 	};
 </script>
