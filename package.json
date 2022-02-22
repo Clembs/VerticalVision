@@ -1,0 +1,35 @@
+{
+	"name": "verticalvision",
+	"version": "0.0.1",
+	"license": "GNU AGPLv3",
+	"private": true,
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Clembs/VerticalVision"
+	},
+	"scripts": {
+		"build": "svelte-kit build",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"dev": "svelte-kit dev",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@sveltejs/adapter-netlify": "^1.0.0-next.46",
+		"@sveltejs/kit": "next",
+		"prettier": "^2.4.1",
+		"prettier-plugin-svelte": "^2.4.0",
+		"sass": "^1.49.4",
+		"stream": "^0.0.2",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.2.6",
+		"svelte-preprocess": "^4.9.4",
+		"tslib": "^2.3.1",
+		"typescript": "^4.4.3"
+	}
+}
