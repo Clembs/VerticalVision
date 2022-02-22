@@ -1,0 +1,4 @@
+Contact: mailto:v.voisin@protonmail.com
+Expires: 2022-04-22T13:00:00.000Z
+Preferred-Languages: en, fr
+Canonical: https://verticalvision.fr/security.txt
